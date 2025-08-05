@@ -1,0 +1,4 @@
+kodi-pi.lauds.zenr.io {
+  reverse_proxy /grafana/* localhost:3000
+  reverse_proxy /nodered/* localhost:1880
+}
